@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_XocscNcIEeyezNqp5-Ed0A" type="Esb" name="mobilePayments" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_YQ2wQNcIEeyezNqp5-Ed0A" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YQ_TINcIEeyezNqp5-Ed0A" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_ZX5Q0NcIEeyezNqp5-Ed0A" type="3668" fontName="Segoe UI">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_ZX534NcIEeyezNqp5-Ed0A" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_ZYOoANcIEeyezNqp5-Ed0A" type="3669">
+            <children xmi:type="notation:Node" xmi:id="_ZYS5cNcIEeyezNqp5-Ed0A" type="3670">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZYS5cdcIEeyezNqp5-Ed0A"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ZYS5ctcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ZYS5c9cIEeyezNqp5-Ed0A"/>
+              <element xmi:type="esb:APIResourceInputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@inputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZYS5dNcIEeyezNqp5-Ed0A" x="86" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZYTggNcIEeyezNqp5-Ed0A" type="3671">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZYTggdcIEeyezNqp5-Ed0A"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ZYTggtcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ZYTgg9cIEeyezNqp5-Ed0A"/>
+              <element xmi:type="esb:APIResourceOutputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@outputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZYTghNcIEeyezNqp5-Ed0A" x="86" y="-23"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZYUHkNcIEeyezNqp5-Ed0A" type="3730">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZYUHkdcIEeyezNqp5-Ed0A"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ZYUHktcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ZYUHk9cIEeyezNqp5-Ed0A"/>
+              <element xmi:type="esb:APIResourceOutSequenceOutputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@outSequenceOutputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZYUHlNcIEeyezNqp5-Ed0A" x="110" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZYUuoNcIEeyezNqp5-Ed0A" type="3672">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZYUuodcIEeyezNqp5-Ed0A"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ZYUuotcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ZYUuo9cIEeyezNqp5-Ed0A"/>
+              <element xmi:type="esb:APIResourceFaultInputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@faultInputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZYUupNcIEeyezNqp5-Ed0A" x="86" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZYVVsNcIEeyezNqp5-Ed0A" type="3673">
+              <children xmi:type="notation:Node" xmi:id="_ZYefoNcIEeyezNqp5-Ed0A" type="3487">
+                <children xmi:type="notation:Node" xmi:id="_ZYiKANcIEeyezNqp5-Ed0A" type="3608">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_ZYixENcIEeyezNqp5-Ed0A" type="7034">
+                    <children xmi:type="notation:Node" xmi:id="_ZZgaYNcIEeyezNqp5-Ed0A" type="3495">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_ZZhBcNcIEeyezNqp5-Ed0A" type="5168"/>
+                      <children xmi:type="notation:Node" xmi:id="_ZaOMENcIEeyezNqp5-Ed0A" type="3018">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZaOMEdcIEeyezNqp5-Ed0A"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_ZaOMEtcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_ZaOME9cIEeyezNqp5-Ed0A"/>
+                        <element xmi:type="esb:LogMediatorInputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZaOMFNcIEeyezNqp5-Ed0A" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_ZaPaMNcIEeyezNqp5-Ed0A" type="3019">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZaPaMdcIEeyezNqp5-Ed0A"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_ZaPaMtcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_ZaPaM9cIEeyezNqp5-Ed0A"/>
+                        <element xmi:type="esb:LogMediatorOutputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZaPaNNcIEeyezNqp5-Ed0A" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZZgaYdcIEeyezNqp5-Ed0A"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_ZZgaYtcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_ZZgaY9cIEeyezNqp5-Ed0A"/>
+                      <element xmi:type="esb:LogMediator" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZgaZNcIEeyezNqp5-Ed0A" x="25" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_ZbKAMNcIEeyezNqp5-Ed0A" type="3515">
+                      <children xmi:type="notation:Node" xmi:id="_ZbZ30NcIEeyezNqp5-Ed0A" type="3085">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZbZ30dcIEeyezNqp5-Ed0A"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_ZbZ30tcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_ZbZ309cIEeyezNqp5-Ed0A"/>
+                        <element xmi:type="esb:SendMediatorInputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@InputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZbZ31NcIEeyezNqp5-Ed0A" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_ZbbF8NcIEeyezNqp5-Ed0A" type="3086">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZbbF8dcIEeyezNqp5-Ed0A"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_ZbbF8tcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_ZbbF89cIEeyezNqp5-Ed0A"/>
+                        <element xmi:type="esb:SendMediatorOutputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@OutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZbbF9NcIEeyezNqp5-Ed0A" x="-11" y="-9"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_ZbbtANcIEeyezNqp5-Ed0A" type="3539">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZbbtAdcIEeyezNqp5-Ed0A"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_ZbbtAtcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_ZbbtA9cIEeyezNqp5-Ed0A"/>
+                        <element xmi:type="esb:SendMediatorEndpointOutputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@endpointOutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZbbtBNcIEeyezNqp5-Ed0A"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Zbc7INcIEeyezNqp5-Ed0A" type="3728">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_Zbc7JdcIEeyezNqp5-Ed0A" type="7046">
+                          <children xmi:type="notation:Node" xmi:id="_ZcL68NcIEeyezNqp5-Ed0A" type="3660">
+                            <children xmi:type="notation:DecorationNode" xmi:id="_ZcL69dcIEeyezNqp5-Ed0A" type="5165"/>
+                            <children xmi:type="notation:Node" xmi:id="_ZcXhINcIEeyezNqp5-Ed0A" type="3661">
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZcXhIdcIEeyezNqp5-Ed0A"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_ZcXhItcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_ZcXhI9cIEeyezNqp5-Ed0A"/>
+                              <element xmi:type="esb:NamedEndpointInputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@mediatorFlow/@children.0/@inputConnector"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZcXhJNcIEeyezNqp5-Ed0A"/>
+                            </children>
+                            <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZcL68dcIEeyezNqp5-Ed0A"/>
+                            <styles xmi:type="notation:FontStyle" xmi:id="_ZcL68tcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                            <styles xmi:type="notation:LineStyle" xmi:id="_ZcL689cIEeyezNqp5-Ed0A"/>
+                            <element xmi:type="esb:NamedEndpoint" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@mediatorFlow/@children.0"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZcL69NcIEeyezNqp5-Ed0A" x="5" y="103"/>
+                          </children>
+                          <styles xmi:type="notation:TitleStyle" xmi:id="_Zbc7JtcIEeyezNqp5-Ed0A" showTitle="true"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Zbc7IdcIEeyezNqp5-Ed0A"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Zbc7ItcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Zbc7I9cIEeyezNqp5-Ed0A"/>
+                        <element xmi:type="esb:MediatorFlow" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@mediatorFlow"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zbc7JNcIEeyezNqp5-Ed0A"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZbKAMdcIEeyezNqp5-Ed0A"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_ZbKAMtcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_ZbKAM9cIEeyezNqp5-Ed0A"/>
+                      <element xmi:type="esb:SendMediator" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZbKANNcIEeyezNqp5-Ed0A" x="149" y="38" width="170" height="100"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_ZcpN8NcIEeyezNqp5-Ed0A" type="3515">
+                      <children xmi:type="notation:Node" xmi:id="_ZcuGcNcIEeyezNqp5-Ed0A" type="3085">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZcuGcdcIEeyezNqp5-Ed0A"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_ZcuGctcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_ZcuGc9cIEeyezNqp5-Ed0A"/>
+                        <element xmi:type="esb:SendMediatorInputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@InputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZcuGdNcIEeyezNqp5-Ed0A" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_ZcutgNcIEeyezNqp5-Ed0A" type="3086">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZcutgdcIEeyezNqp5-Ed0A"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_ZcutgtcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Zcutg9cIEeyezNqp5-Ed0A"/>
+                        <element xmi:type="esb:SendMediatorOutputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@OutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZcuthNcIEeyezNqp5-Ed0A" x="-11" y="-9"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_ZcvUkNcIEeyezNqp5-Ed0A" type="3539">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZcvUkdcIEeyezNqp5-Ed0A"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_ZcvUktcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_ZcvUk9cIEeyezNqp5-Ed0A"/>
+                        <element xmi:type="esb:SendMediatorEndpointOutputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@endpointOutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZcvUlNcIEeyezNqp5-Ed0A"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Zcv7oNcIEeyezNqp5-Ed0A" type="3728">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_ZcwitNcIEeyezNqp5-Ed0A" type="7046">
+                          <styles xmi:type="notation:TitleStyle" xmi:id="_ZcwitdcIEeyezNqp5-Ed0A" showTitle="true"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZcwisNcIEeyezNqp5-Ed0A"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_ZcwisdcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_ZcwistcIEeyezNqp5-Ed0A"/>
+                        <element xmi:type="esb:MediatorFlow" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@mediatorFlow"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zcwis9cIEeyezNqp5-Ed0A"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZcpN8dcIEeyezNqp5-Ed0A"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_ZcpN8tcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_ZcpN89cIEeyezNqp5-Ed0A"/>
+                      <element xmi:type="esb:SendMediator" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZcpN9NcIEeyezNqp5-Ed0A" x="25" y="200" width="270" height="100"/>
+                    </children>
+                    <styles xmi:type="notation:TitleStyle" xmi:id="_ZYixEdcIEeyezNqp5-Ed0A" showTitle="true"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZYiKAdcIEeyezNqp5-Ed0A"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_ZYiKAtcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_ZYiKA9cIEeyezNqp5-Ed0A"/>
+                  <element xmi:type="esb:MediatorFlow" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZYiKBNcIEeyezNqp5-Ed0A"/>
+                </children>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZYefodcIEeyezNqp5-Ed0A"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZYfGsNcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_ZYfGsdcIEeyezNqp5-Ed0A"/>
+                <element xmi:type="esb:ProxyServiceSequenceAndEndpointContainer" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZYfGstcIEeyezNqp5-Ed0A"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ZYfGs9cIEeyezNqp5-Ed0A" type="3488">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZYfGtNcIEeyezNqp5-Ed0A"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZYfGtdcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_ZYfGttcIEeyezNqp5-Ed0A"/>
+                <element xmi:type="esb:ProxyServiceFaultContainer" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@faultContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZYfGt9cIEeyezNqp5-Ed0A"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZYVVsdcIEeyezNqp5-Ed0A"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ZYVVstcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ZYVVs9cIEeyezNqp5-Ed0A"/>
+              <element xmi:type="esb:ProxyServiceContainer" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZYVVtNcIEeyezNqp5-Ed0A"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZcA70NcIEeyezNqp5-Ed0A" type="3747">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZcA70dcIEeyezNqp5-Ed0A"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ZcA70tcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ZcA709cIEeyezNqp5-Ed0A"/>
+              <element xmi:type="esb:APIResourceInSequenceInputConnector" href="mobilePayments.esb#//@server/@children.0/@resources.0/@inSequenceInputConnectors.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZcA71NcIEeyezNqp5-Ed0A"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZYOoAdcIEeyezNqp5-Ed0A"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_ZYOoAtcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_ZYOoA9cIEeyezNqp5-Ed0A"/>
+            <element xmi:type="esb:APIResource" href="mobilePayments.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZYOoBNcIEeyezNqp5-Ed0A" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="mobilePayments.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZX5Q0dcIEeyezNqp5-Ed0A" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_YQ2wQdcIEeyezNqp5-Ed0A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_YQ2wQtcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_YQ2wQ9cIEeyezNqp5-Ed0A"/>
+    <element xmi:type="esb:EsbServer" href="mobilePayments.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YQ2wRNcIEeyezNqp5-Ed0A"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_XocscdcIEeyezNqp5-Ed0A"/>
+  <element xmi:type="esb:EsbDiagram" href="mobilePayments.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_ZhHeQNcIEeyezNqp5-Ed0A" type="4001" source="_ZYTggNcIEeyezNqp5-Ed0A" target="_ZaOMENcIEeyezNqp5-Ed0A" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZhHeQdcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="mobilePayments.esb#//@server/@children.0/@resources.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZhHeQtcIEeyezNqp5-Ed0A" points="[6, 5, -5, 0]$[5, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZhoboNcIEeyezNqp5-Ed0A" type="4001" source="_ZaPaMNcIEeyezNqp5-Ed0A" target="_ZbZ30NcIEeyezNqp5-Ed0A" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZhobodcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZhobotcIEeyezNqp5-Ed0A" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZhwXcNcIEeyezNqp5-Ed0A" type="4001" source="_ZcutgNcIEeyezNqp5-Ed0A" target="_ZYS5cNcIEeyezNqp5-Ed0A" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZhwXcdcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@OutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZhwXctcIEeyezNqp5-Ed0A" points="[-11, 7, 5, 0]$[-10, 4, 6, -3]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Zh46UNcIEeyezNqp5-Ed0A" type="4001" source="_ZYUHkNcIEeyezNqp5-Ed0A" target="_ZcuGcNcIEeyezNqp5-Ed0A" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zh46UdcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="mobilePayments.esb#//@server/@children.0/@resources.0/@outSequenceOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zh46UtcIEeyezNqp5-Ed0A" points="[-6, -4, 7, 3]$[-7, -4, 6, 3]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZoGQANcIEeyezNqp5-Ed0A" type="4001" source="_ZbbtANcIEeyezNqp5-Ed0A" target="_ZcXhINcIEeyezNqp5-Ed0A" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZoGQAdcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZoGQAtcIEeyezNqp5-Ed0A" points="[2, 9, -31, -110]$[31, 114, -2, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZobAINcIEeyezNqp5-Ed0A" type="4001" source="_ZbbF8NcIEeyezNqp5-Ed0A" target="_ZcA70NcIEeyezNqp5-Ed0A" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZobAIdcIEeyezNqp5-Ed0A" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="mobilePayments.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@OutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZobAItcIEeyezNqp5-Ed0A" points="[11, -10, -12, 9]$[16, -14, -7, 5]"/>
+  </edges>
+</notation:Diagram>

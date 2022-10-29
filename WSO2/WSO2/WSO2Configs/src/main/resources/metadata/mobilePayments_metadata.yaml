@@ -1,0 +1,11 @@
+---
+key: "mobilePayments-1.0.0"
+name : "mobilePayments"
+displayName : "mobilePayments"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/mobile-payments"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"

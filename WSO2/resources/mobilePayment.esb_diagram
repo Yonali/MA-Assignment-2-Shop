@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_zMau4Nb0EeyP1r0p8LQokA" type="Esb" name="mobilePayment" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_zM5QANb0EeyP1r0p8LQokA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zM53ENb0EeyP1r0p8LQokA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_JlYU8Nb1EeyP1r0p8LQokA" type="3668" fontName="Segoe UI">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_JlY8Adb1EeyP1r0p8LQokA" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_JldNcNb1EeyP1r0p8LQokA" type="3669">
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_JldNcdb1EeyP1r0p8LQokA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_JldNctb1EeyP1r0p8LQokA" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_JldNc9b1EeyP1r0p8LQokA"/>
+            <element xmi:type="esb:APIResource" href="mobilePayment.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JldNdNb1EeyP1r0p8LQokA" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="mobilePayment.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JlY8ANb1EeyP1r0p8LQokA" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zM5QAdb0EeyP1r0p8LQokA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zM5QAtb0EeyP1r0p8LQokA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_zM5QA9b0EeyP1r0p8LQokA"/>
+    <element xmi:type="esb:EsbServer" href="mobilePayment.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zM5QBNb0EeyP1r0p8LQokA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_zMau4db0EeyP1r0p8LQokA"/>
+  <element xmi:type="esb:EsbDiagram" href="mobilePayment.esb#/"/>
+</notation:Diagram>

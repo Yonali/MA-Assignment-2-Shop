@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/mobile-payments" name="mobilePayments" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" url-mapping="/pay">
+        <inSequence>
+            <log>
+                <property name="mobilePayments" value="hello mobile payments"/>
+            </log>
+            <send>
+                <endpoint key="mobile-payments"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

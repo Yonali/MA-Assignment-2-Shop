@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "start": "node server",
+    "serve": "nodemon server",
+    "client": "npm run start --prefix frontend"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.2.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.13.2",
+    "nodemailer": "^6.7.5",
+    "npm": "^8.11.0",
+    "shoutout-sdk": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

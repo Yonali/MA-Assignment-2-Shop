@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server hostname="localhost" id="org.wso2.micro.integrator.server41" id-set="true" name="Micro Integrator Server 4.1.0" runtime-id="org.wso2.micro.integrator.runtime41" server-type="org.wso2.integrationstudio.carbon.server44microei41" server-type-id="org.wso2.integrationstudio.carbon.server44microei41" start-timeout="600" stop-timeout="15" timestamp="14">
+    <map carbon.debug="5001" carbon.home="C:\Users\lahir\Desktop\WSO2-Integration-Studio-8.1.0-win32-x86_64\IntegrationStudio\runtime\microesb" carbon.offset="10" hot.deployment="true" key="generic_server_instance_properties" osgi.console="false" synapse.transport.http="8280" synapse.transport.https="8243"/>
+  </server>
+  <server hostname="localhost" id="WSO2 Enterprise Integrator 6.4.0 at localhost" name="WSO2 Enterprise Integrator 6.4.0 at localhost" runtime-id="WSO2 Enterprise Integrator Server" server-type="org.wso2.integrationstudio.carbon.server44ei" server-type-id="org.wso2.integrationstudio.carbon.server44ei" start-timeout="600" stop-timeout="15" timestamp="1">
+    <map carbon.browser="true" carbon.debug="5001" carbon.hotupdate="true" carbon.http="9763" carbon.https="9443" carbon.offset="0" key="generic_server_instance_properties" osgi.console="false" synapse.transport.http="8280" synapse.transport.https="8243"/>
+    <list key="Generic_Server_Modules_List" value0="org.wso2.integrationstudio.carbon.moduleFactory:WSO2CompositeExporter"/>
+    <list key="modules" value0="WSO2CompositeExporter::org.wso2.integrationstudio.carbon.moduleFactory:WSO2CompositeExporter::org.wso2.integrationstudio.carbon.module::1.0"/>
+  </server>
+</servers>

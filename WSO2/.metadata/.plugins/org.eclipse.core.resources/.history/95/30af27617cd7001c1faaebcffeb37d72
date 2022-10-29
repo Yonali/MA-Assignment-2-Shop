@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/cart-paymetns" name="cartPayments" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST" url-mapping="/pay">
+        <inSequence>
+            <log description="">
+                <property name="cartPayments" value="welcome to ceyloan agri"/>
+            </log>
+            <send>
+                <endpoint key="cart-payment"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

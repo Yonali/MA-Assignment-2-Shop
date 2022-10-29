@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="cartPayments" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/cartPayments.xml</file>
+    </artifact>
+    <artifact name="ceyloanAgri_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ceyloanAgri_swagger.yaml</file>
+    </artifact>
+    <artifact name="ceyloanAgri_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ceyloanAgri_metadata.yaml</file>
+    </artifact>
+    <artifact name="cart-payment" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/cart-payment.xml</file>
+    </artifact>
+    <artifact name="mobilePayments" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/mobilePayments.xml</file>
+    </artifact>
+    <artifact name="mobilePayments_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/mobilePayments_swagger.yaml</file>
+    </artifact>
+    <artifact name="mobilePayments_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/mobilePayments_metadata.yaml</file>
+    </artifact>
+    <artifact name="mobile-payments" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/mobile-payments.xml</file>
+    </artifact>
+</artifacts>

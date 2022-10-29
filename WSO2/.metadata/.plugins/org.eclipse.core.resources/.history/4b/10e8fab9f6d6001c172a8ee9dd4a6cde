@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/ceyloan-agri" name="ceyloanAgri" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <log description="">
+                <property name="ceyloanAgri" value="welcome to ceyloan agri"/>
+            </log>
+            <send>
+                <endpoint key="cart-payment"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>
